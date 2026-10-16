@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+::selection {
+  background: rgba(56, 189, 248, 0.35);
+  color: #0f172a;
+}
+
+form label {
+  color: #000;
+}
+
+form input:not([type="checkbox"]):not([type="radio"]),
+form select,
+form textarea {
+  color: #000;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+  color: #111;
+  opacity: 0.75;
+}
